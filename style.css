@@ -44,7 +44,7 @@ h2.group{margin:2.5rem 0 1rem;font:700 1.4rem var(--serif)}
 .refs p{padding-left:2rem;text-indent:-2rem;font-size:.97rem}
 .pager{display:flex;justify-content:space-between;gap:1rem;margin-top:3rem;padding-top:1.5rem;border-top:1px solid var(--line);flex-wrap:wrap}
 .pager a{text-decoration:none;font-weight:600}.pager a:hover{text-decoration:underline}
-.site video{display:block;width:100%;height:auto;margin-top:.9rem;border-radius:4px;background:#000}
+.site video{display:block;width:100%;aspect-ratio:16/9;height:auto;margin-top:.9rem;border-radius:4px;background:#000}
 .btn{display:inline-block;font:600 1rem var(--sans);padding:.7rem 1.4rem;border-radius:6px;border:2px solid var(--ink);background:var(--ink);color:var(--bg);text-decoration:none;cursor:pointer}
 .btn.ghost{background:transparent;color:var(--ink)}.actions{display:flex;gap:.75rem;flex-wrap:wrap;margin-top:1.5rem}
 .stop{border-left:6px solid var(--mixed)}.dest{word-break:break-all;font:700 1.1rem var(--sans)}
