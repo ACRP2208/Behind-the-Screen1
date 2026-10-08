@@ -49,6 +49,21 @@ h2.group{margin:2.5rem 0 1rem;font:700 1.4rem var(--serif)}
 .btn.ghost{background:transparent;color:var(--ink)}.actions{display:flex;gap:.75rem;flex-wrap:wrap;margin-top:1.5rem}
 .stop{border-left:6px solid var(--mixed)}.dest{word-break:break-all;font:700 1.1rem var(--sans)}
 .vid{margin-top:.7rem!important}.vid a{font-weight:600;font-size:.92rem}
+dialog.bump{width:min(92vw,480px);max-height:90vh;overflow:auto;padding:0;border:1px solid var(--line);border-top:6px solid var(--mixed);border-radius:10px;background:var(--card);color:var(--ink);box-shadow:0 20px 60px rgba(0,0,0,.35)}
+dialog.bump::backdrop{background:rgba(8,14,20,.65)}
+dialog.bump[open]{animation:bump-in .18s ease-out}
+@keyframes bump-in{from{opacity:0;transform:translateY(8px) scale(.98)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){dialog.bump[open]{animation:none}}
+.bump-box{position:relative;padding:1.6rem 1.6rem 1.4rem}
+.bump-box h2{margin:0 2rem .75rem 0;font:700 1.45rem/1.2 var(--serif)}
+.bump-box p{margin:0 0 .5rem}
+.bump-x{position:absolute;top:.6rem;right:.7rem;width:2.2rem;height:2.2rem;border:0;border-radius:6px;background:transparent;color:var(--muted);font-size:1.6rem;line-height:1;cursor:pointer}
+.bump-x:hover{color:var(--ink)}
+.bump-dest{background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:.7rem .9rem;margin:1rem 0}
+.bump-dest span{display:block;font-size:.85rem;color:var(--muted)}
+.bump-dest strong{display:block;word-break:break-all;font-size:.98rem}
+.bump-ask{font-weight:700}
+.bump-box ul{margin:0;padding-left:1.2rem}
 footer{border-top:1px solid var(--line);padding:2rem 0 3rem;color:var(--muted);font-size:.92rem}footer p{margin:0 0 .4rem}
 @media (max-width:560px){.case h3{padding-right:0;margin-top:2.4rem}}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
