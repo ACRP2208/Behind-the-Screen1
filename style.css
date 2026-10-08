@@ -48,6 +48,7 @@ h2.group{margin:2.5rem 0 1rem;font:700 1.4rem var(--serif)}
 .btn{display:inline-block;font:600 1rem var(--sans);padding:.7rem 1.4rem;border-radius:6px;border:2px solid var(--ink);background:var(--ink);color:var(--bg);text-decoration:none;cursor:pointer}
 .btn.ghost{background:transparent;color:var(--ink)}.actions{display:flex;gap:.75rem;flex-wrap:wrap;margin-top:1.5rem}
 .stop{border-left:6px solid var(--mixed)}.dest{word-break:break-all;font:700 1.1rem var(--sans)}
+.vid{margin-top:.7rem!important}.vid a{font-weight:600;font-size:.92rem}
 footer{border-top:1px solid var(--line);padding:2rem 0 3rem;color:var(--muted);font-size:.92rem}footer p{margin:0 0 .4rem}
 @media (max-width:560px){.case h3{padding-right:0;margin-top:2.4rem}}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
